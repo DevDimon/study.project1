@@ -3,8 +3,17 @@ button {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    top: 50vh;
+    top: 40vh;
     position: relative;
+    width: 300px;
+    height: 100px;
+    background-color:brown;
+    border-radius: 10px;
+    transition: background-color 1s, border-color 0.5s;
+}
+
+button:hover {
+    background-color: red;
 }
 
 p {
